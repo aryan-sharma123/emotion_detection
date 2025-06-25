@@ -21,11 +21,18 @@ int_to_emotion = {
 }
 
 
-# --- Load models and preprocessors ---
-model_female = load_model(r"female_models\female_model.keras")
-model_male = load_model("male_models\\male_model.keras")
-scaler_female = joblib.load("female_models\\female_scaler.pkl")
-scaler_male = joblib.load("male_models\\male_scaler.pkl")
+
+## for locally do these 
+# model_female = load_model(r"female_models\female_model.keras")
+# model_male = load_model("male_models\\male_model.keras")
+# scaler_female = joblib.load("female_models\\female_scaler.pkl")
+# scaler_male = joblib.load("male_models\\male_scaler.pkl")
+
+## for streamlit do these 
+model_female = load_model("female_models/female_model.keras")
+model_male = load_model("male_models/male_model.keras")
+scaler_female = joblib.load("female_models/female_scaler.pkl")
+scaler_male = joblib.load("male_models/male_scaler.pkl")
 
 
 from voice_gender_classifier.model import ECAPA_gender
