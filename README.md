@@ -52,8 +52,16 @@ Extracted using `librosa`:
 
 ---
 
+## COMBINED DATASET CLASSIFICATION REPORT
+
+![image](https://github.com/user-attachments/assets/d1fb9bae-df1b-4d25-adbe-e460cd94f27d)
+
+![image](https://github.com/user-attachments/assets/c048af2f-9715-45f5-890a-a3f744fa4f5b)
 
 
+
+
+## INDIVIDUAL MODELS REPORTS
 
 for male model predictions 
 ![image](https://github.com/user-attachments/assets/b5a55869-e5b5-40c4-a0f6-b7ab5ad4e7ee)
