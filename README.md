@@ -10,6 +10,8 @@ This project is a **speech emotion recognition (SER)** system that:
 - Is deployed as a **Streamlit web app**
 
 ---
+## TRAINING AND INFERENCING IDEA AND THOUGHT PROCESS HAVE BEEN ATTACHED IN JPEG FILES 
+
 Models Used
 
 - **Gender Detection**:
