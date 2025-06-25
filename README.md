@@ -7,6 +7,8 @@ This project is a **speech emotion recognition (SER)** system that:
 - Accepts `.wav` audio files as input
 - Automatically detects the speaker's gender using a pretrained **ECAPA-TDNN model**
 - Uses a gender-specific **CNN emotion classifier** to predict one of 8 emotions
+- CNN architecture with:
+  Conv1D → MaxPool → Dropout → Conv1D → MaxPool → Dense → Softmax
 - Is deployed as a **Streamlit web app**
 
 ---
@@ -15,6 +17,12 @@ This project is a **speech emotion recognition (SER)** system that:
 ## TRAINING AND INFERENCING IDEA AND THOUGHT PROCESS HAVE BEEN ATTACHED IN JPEG FILES 
 ## script.py file will be used when you want to predict outcomes for a Test folder ( give the path to test folder , will save results in CSV file )
 ## app.py file will be used to test stream-lit 
+To launch the app:
+
+bash
+Copy
+Edit
+streamlit run app.py
 ## See common_pred.ipynb to verify Final Results ( Reports and Confusion matrix )
 ## male.ipynb - male model training ( Reports and confusion matrix )
 ## female.ipynb - same
@@ -100,5 +108,26 @@ Extracted using `librosa`:
 ![image](https://github.com/user-attachments/assets/2c785606-875b-4c5d-89b4-8a43f0680566)
 
 ![image](https://github.com/user-attachments/assets/2b583be5-0e8a-483d-88da-6ed14d847896)
+
+
+
+
+
+
+Future Improvements
+✅ Stacking Classifier combining:
+Base models-
+      XGBoost
+      CNN
+      LSTM
+      Random Forest
+
+
+Author & Acknowledgments
+Developed by Aryan
+
+Gender model credit: JaesungHuh/voice-gender-classifier
+
+Dataset used: RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
 
 
