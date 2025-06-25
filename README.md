@@ -120,6 +120,8 @@ Base models-
       LSTM
       Random Forest
 
+## ------------------------------------------------------------------------------------------------
+
 
 Author & Acknowledgments
 Developed by Aryan
@@ -127,5 +129,14 @@ Developed by Aryan
 Gender model credit: JaesungHuh/voice-gender-classifier
 
 Dataset used: RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+
+
+## --------------------------------------------------------------------------
+
+## OPTIONAL 
+
+i have attached all my starting models in the folder TRY which i have tried ...i tried to have as many possible combinations of ideas ( more than 10 models were trained )
+IF you find time have a look on those files ....I spent a lot of time for this project ( Interesting project accuracy barriers were challenging :) )
+
 
 
