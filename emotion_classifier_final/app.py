@@ -35,7 +35,7 @@ from tensorflow.keras.models import load_model
 
 
 model_female = load_model("emotion_classifier_final/female_models/female_model.keras")
-model_male = model("emotion_classifier_final/male_models/male_model.keras")
+model_male = load_model("emotion_classifier_final/male_models/male_model.keras")
 scaler_female = joblib.load("emotion_classifier_final/female_models/female_scaler.pkl")
 scaler_male = joblib.load("emotion_classifier_final/male_models/male_scaler.pkl")
 
