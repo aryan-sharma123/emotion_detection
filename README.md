@@ -80,6 +80,8 @@ Extracted using `librosa`:
 
 2. Can integrate Wav2Vec2Model ( model = Wav2Vec2Model.from_pretrained("facebook/wav2vec2-base-960h") )   also to extract features instead of relying manually ....still inferencing time high.
 
+3. NO augmentation and scaling is done on TEST DATASET
+
 
 
 ## COMBINED DATASET CLASSIFICATION REPORT
