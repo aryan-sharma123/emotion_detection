@@ -29,19 +29,13 @@ int_to_emotion = {
 # scaler_male = joblib.load("male_models\\male_scaler.pkl")
 
 ## for streamlit do these 
-from keras.saving.legacy.save import load_model as legacy_load_model
-import tensorflow as tf
+
 
 from tensorflow.keras.models import load_model
 
-try:
-    model_female = load_model("emotion_classifier_final/female_models/female_model.keras")
-    model_male = load_model("emotion_classifier_final/male_models/male_model.keras")
-except:
-    # Fallback to legacy method if standard loading fails
-    from keras.saving.legacy.save import load_model as legacy_load_model
-    model_female = legacy_load_model("emotion_classifier_final/female_models/female_model.keras")
-    model_male = legacy_load_model("emotion_classifier_final/male_models/male_model.keras")
+
+model_female = load_model("emotion_classifier_final/female_models/female_model.keras")
+model_male = model("emotion_classifier_final/male_models/male_model.keras")
 scaler_female = joblib.load("emotion_classifier_final/female_models/female_scaler.pkl")
 scaler_male = joblib.load("emotion_classifier_final/male_models/male_scaler.pkl")
 
