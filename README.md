@@ -14,6 +14,8 @@ This project is a **speech emotion recognition (SER)** system that:
 ## SUGGESTION - USE VIRTUAL ENV TO DOWNLOAD PACKAGES ( REQUIREMENTS.TXT )
 ## TRAINING AND INFERENCING IDEA AND THOUGHT PROCESS HAVE BEEN ATTACHED IN JPEG FILES 
 
+Error to take care of :  prefer to use CPU instead of GPU because of presence of torch , if you want to use, then tell externally SYS.PATH
+
 Models Used
 
 - **Gender Detection**:
