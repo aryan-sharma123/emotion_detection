@@ -1,4 +1,57 @@
-# emotion_detection
+
+
+
+Gender-Specific Speech Emotion Recognition Web App
+
+This project is a **speech emotion recognition (SER)** system that:
+- Accepts `.wav` audio files as input
+- Automatically detects the speaker's gender using a pretrained **ECAPA-TDNN model**
+- Uses a gender-specific **CNN emotion classifier** to predict one of 8 emotions
+- Is deployed as a **Streamlit web app**
+
+---
+Models Used
+
+- **Gender Detection**:
+  - Model: [`JaesungHuh/voice-gender-classifier`](https://huggingface.co/JaesungHuh/voice-gender-classifier)
+  - Framework: `speechbrain`, `ECAPA-TDNN`
+  
+- **Emotion Classification**:
+  - 2 separate **CNN models** trained using gender-specific feature distributions
+  - Trained on features: MFCC, Chroma, Tonnetz, Spectral Contrast, Mel-Spectrogram, etc.
+  - Output: 8 emotions
+
+---
+
+## 😃 Emotions Predicted
+
+| Label | Emotion     |
+|-------|-------------|
+| 0     | Neutral     |
+| 1     | Calm        |
+| 2     | Happy       |
+| 3     | Sad         |
+| 4     | Angry       |
+| 5     | Fearful     |
+| 6     | Disgust     |
+| 7     | Surprised   |
+
+---
+
+## 🛠️ Features Used
+
+Extracted using `librosa`:
+- MFCCs (mean, std, median)
+- Chroma STFT
+- Spectral Contrast
+- Tonnetz
+- Mel-Spectrogram (mean, std, max, median)
+- Spectral Centroid, Bandwidth, Rolloff, Flatness
+- Zero Crossing Rate
+- RMS Energy
+
+---
+
 
 
 
