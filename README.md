@@ -8,8 +8,9 @@ for male model predictions
 ![image](https://github.com/user-attachments/assets/b7768ada-9335-4b36-a461-09627f735a7f)
 
 for female mode predictions
-![image](https://github.com/user-attachments/assets/2b583be5-0e8a-483d-88da-6ed14d847896)
 
 ![image](https://github.com/user-attachments/assets/2c785606-875b-4c5d-89b4-8a43f0680566)
+
+![image](https://github.com/user-attachments/assets/2b583be5-0e8a-483d-88da-6ed14d847896)
 
 
