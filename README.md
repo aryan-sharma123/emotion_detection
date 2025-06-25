@@ -13,6 +13,7 @@ This project is a **speech emotion recognition (SER)** system that:
 
 ## SUGGESTION - USE VIRTUAL ENV TO DOWNLOAD PACKAGES ( REQUIREMENTS.TXT )
 ## TRAINING AND INFERENCING IDEA AND THOUGHT PROCESS HAVE BEEN ATTACHED IN JPEG FILES 
+## script.py file will be used when you want to predict outcomes for a Test folder ( give the path to test folder , will save results in CSV file )
 
 Error to take care of :  prefer to use CPU instead of GPU because of presence of torch , if you want to use, then tell externally SYS.PATH
 
