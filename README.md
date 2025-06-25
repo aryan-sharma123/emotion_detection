@@ -3,6 +3,10 @@
 
 ## ----------------------------------------------------------------------
 
+## LINK for the Streamlit web app
+
+[Emotion Detection Web App](https://emotiondetection-dufxsg45rkpj8cjezdkr5m.streamlit.app/)
+
 
 
 Gender-Specific Speech Emotion Recognition Web App
