@@ -16,6 +16,8 @@ This project is a **speech emotion recognition (SER)** system that:
 ## script.py file will be used when you want to predict outcomes for a Test folder ( give the path to test folder , will save results in CSV file )
 ## app.py file will be used to test stream-lit 
 
+
+
 Error to take care of :  prefer to use CPU instead of GPU because of presence of torch , if you want to use, then tell externally SYS.PATH
 
 Models Used
@@ -59,6 +61,13 @@ Extracted using `librosa`:
 - RMS Energy
 
 ---
+
+## KEY FEATURES - 
+1. Use of JaesungHuh/voice-gender-classifier to accurately predict gender model, can also use this model to define Female and Male dataset instead of classifying them on the basis of their name , tried but this is     increasing inferencing time.
+
+2. Can integrate Wav2Vec2Model ( model = Wav2Vec2Model.from_pretrained("facebook/wav2vec2-base-960h") )   also to extract features instead of relying manually ....still inferencing time high.
+
+
 
 ## COMBINED DATASET CLASSIFICATION REPORT
 
