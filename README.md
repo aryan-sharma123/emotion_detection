@@ -1,3 +1,5 @@
+NAME - Aryan
+EN.NO - 23112022 ( Chemical Eng 3rd Y )
 
 
 
@@ -108,8 +110,8 @@ Extracted using `librosa`:
 
 
 
-Future Improvements
-✅ Stacking Classifier combining:
+## Future Improvements
+ Stacking Classifier combining:
 Base models-
       XGBoost
       CNN
