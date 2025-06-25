@@ -18,10 +18,5 @@ matplotlib==3.7.1
 seaborn==0.12.2
 tqdm==4.65.0
 
-# Torch with CPU only (important!)
-torch==1.13.1+cpu
-torchaudio==0.13.1+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-
 # Utilities
 glob2==0.7
