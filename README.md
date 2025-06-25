@@ -17,12 +17,6 @@ This project is a **speech emotion recognition (SER)** system that:
 ## TRAINING AND INFERENCING IDEA AND THOUGHT PROCESS HAVE BEEN ATTACHED IN JPEG FILES 
 ## script.py file will be used when you want to predict outcomes for a Test folder ( give the path to test folder , will save results in CSV file )
 ## app.py file will be used to test stream-lit 
-To launch the app:
-
-bash
-Copy
-Edit
-streamlit run app.py
 ## See common_pred.ipynb to verify Final Results ( Reports and Confusion matrix )
 ## male.ipynb - male model training ( Reports and confusion matrix )
 ## female.ipynb - same
